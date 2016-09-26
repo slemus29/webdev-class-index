@@ -1,0 +1,23 @@
+.larger-image{
+  width: 20%;
+  background: red;
+  float: left;
+}
+div{
+  width: 80%;
+}
+.cuadro{
+  width: 50%;
+  background-color: blue;
+}
+.cuadro:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.border{
+  border-color: blue;
+  border-width: 10px;
+  border-style: solid;
+}
+
