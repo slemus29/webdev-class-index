@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<script type="text/javascript">
+  //creando un triángulo
+  var n = prompt("coloque un numero");
+  for ( var i = 1; i <= n; i++){
+    var s = "";
+    while (s.length < i){
+      s = s + "#";
+    }
+  console.log(s);
+  }
+  //fizz-buzz
+  var y = prompt("coloque un numero")
+  for (var i = 1; i <= y; i++){
+    if ( i % 3 == 0){
+      if ( i % 5 ==0){
+        console.log("fizzbuzz");
+      }
+      console.log("fizz");
+
+    }
+    else if ( i % 5 == 0){
+      console.log("buzz");
+    }
+    else {
+      console.log(i)
+    }
+  }  
+
+
+</script>
+</body>
+</html>
