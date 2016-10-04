@@ -30,13 +30,12 @@ h3{	font-family: Lobster, Monospace;
   margin-left: 180px;
   padding: 15px;
   background-color: #ccffff;
-  background-image: ur("paila.png");
   height: 600px;
-  z-index: 1;
   padding: 20px;
 }
 .barra{
-  position: absolute;
+  display: block;
+  position: relative;
   top: 0px;
   right: 0px;
   width: 100%;
