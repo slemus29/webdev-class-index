@@ -5,7 +5,79 @@
 </head>
 <body>
 <script type="text/javascript">
-  alert("Invocando con Javascript!");
+  // var x=5*5;
+  // console.log(x);
+  // var animo="triste";
+  // console.log(animo);
+  // var deuda=20000;
+  // deuda=deuda-12000;
+  // console.log(deuda);
+  // console.log(Math.max(2,5));
+  
+  // console.log(confirm("estoy aprendiendo javascript?"))
+  // var rta=prompt("fabian es vago")
+// var rta=prompt("escriba un numero")
+
+//   if(rta==0){
+//     console.log("es cero")
+//   }
+    
+//   else if (rta%2==0 ){
+//     console.log("es par");
+//   }
+//   else if (rta%2==1){
+//     console.log("es impar")
+//   }
+  var x=0
+  while(x<100){
+    if(x%2==0){
+        console.log(x);
+    }
+    x++;
+  }
+
+  x=0;
+  do{ 
+    if(x%2==0){
+        console.log(x);
+    }
+    x++;
+  } while(x<0)
+
+  // for(var y=0;y<10;y++){
+  //   console.log(y);
+  // }
+  // for(var y=100;y>0;y--){
+  //   console.log(y);
+  //   if(y==30){
+  //     break;
+  //   }
+  // }
+  var y=41;
+  var isEven= y%2 ==0
+  console.log(y)
+  switch(isEven){
+    case false:
+      console.log("is Odd");
+      break
+    case true:
+      console.log("is Even");
+  }
+  var clima=prompt("como esta el clima");
+  switch(clima){
+    case "soleado":
+      console.log("use camiseta")
+      break
+    case "lluvioso":
+      console.log("saque sombrilla")  
+      break
+    case "nublado":
+      console.log("va a llover")
+      break
+    default:
+      console.log("no se que clima es ese")
+  }
+
 </script>
 </body>
 </html>
